@@ -108,6 +108,11 @@ img {
   list-style-type: none;
   display: flex;
 }
+.icon-item:hover,
+.icon-item:focus {
+  fill: var(--main-color);
+}
+
 
 /* === END NAVIGATION === */
 
@@ -644,10 +649,7 @@ img {
 }
 .footer-left-side {
   display: block;
- 
 }
-
-
 .footer .container {
   display: flex;
 }
