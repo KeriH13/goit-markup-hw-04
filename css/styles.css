@@ -69,6 +69,8 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-right: 93px;
+  display: flex;
+  align-items: center;
 }
 .web-item {
   color: var(--main-color);
@@ -613,13 +615,14 @@ img {
 /* === END NASI KLIENCI === */
 
 /* ===== FOOTER ===== */
+.bottom-adress {
+  display: flex;
+  align-items: center;
+  
+}
 .footer-logo {
   padding-top: 60px;
   margin-bottom: 20px;
-  /* -----------------------------------poprawić odległości ===================== */
-    display: flex;
-  justify-content: space-between;
-  
 }
 .background-color-footer {
   padding-bottom: 60px;
@@ -637,14 +640,36 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
-  display: flex;
-
+  
+}
+.footer-left-side {
+  display: block;
+ 
 }
 
-.footer-icons-div {
-  /* display: flex;
-  flex-direction: column; */
+
+.footer .container {
+  display: flex;
+}
+.footer-right-side {
+  padding-top: 72px;
+  padding-left: 70px;
+}
+
+.item-list-right-side {
+  display: flex;
+  align-items: center;
   
+}
+.social-image-footer {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  fill: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
 }
 /* ============================ */
 
