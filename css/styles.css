@@ -125,7 +125,8 @@ img {
 .contacts {
   list-style-type: none;
 }
-.contacts-item:not(:last-child) {
+/* =========================== za dużo klas ========================================== */
+.first-space {
   margin-right: 50px;
 }
 
@@ -139,7 +140,6 @@ img {
   font-size: 14px;
   line-height: 1 142;
   letter-spacing: 0.02em;
-  margin-right: 50px;
 }
 .contacts-item:hover,
 .contacts-item:focus {
@@ -281,7 +281,7 @@ img {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
-  border-radius: 5px;
+  border-radius: 4px;
   align-items: center;
   justify-content: center;
 }
@@ -292,9 +292,6 @@ img {
   width: 65, 32px;
   height: 70px;
 }
-.customer-image {
-}
-
 .description-four-times.section {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -377,6 +374,7 @@ img {
 .social-list:not(:last-child) {
   margin-right: 10px;
 }
+/* na chwile------------------- */
 .social-padding-bottom {
   padding-bottom: 30px;
 }
@@ -597,7 +595,7 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   fill: #afb1b8;
-  border-radius: 5px;
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
 }
@@ -618,6 +616,9 @@ img {
 .footer-logo {
   padding-top: 60px;
   margin-bottom: 20px;
+  /* -----------------------------------poprawić odległości ===================== */
+    display: flex;
+  justify-content: space-between;
   
 }
 .background-color-footer {
@@ -628,8 +629,6 @@ img {
 }
 
 .footer-icons {
-  display: flex;
-  justify-content: center;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
@@ -638,12 +637,14 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
+  display: flex;
+
 }
 
 .footer-icons-div {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   
-  margin-left: 171px;
 }
 /* ============================ */
+
