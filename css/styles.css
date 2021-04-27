@@ -88,7 +88,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1 142;
+  line-height: 1.142;
   letter-spacing: 0.02em;
   color: #212121;
   display: flex;
@@ -143,7 +143,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1 142;
+  line-height: 1.142;
   letter-spacing: 0.02em;
 }
 .contacts-item:hover,
@@ -165,7 +165,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -186,7 +186,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -202,7 +202,7 @@ img {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1 363;
+  line-height: 1.363;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -254,7 +254,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1 875;
+  line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -316,7 +316,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1 142;
+  line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -326,7 +326,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1 714;
+  line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
@@ -341,7 +341,7 @@ img {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 1 166;
+  line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -447,7 +447,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1 187;
+  line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -458,7 +458,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1 187;
+  line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -516,11 +516,12 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1 625;
+  line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   padding: 6px 22px;
+  border:0;
 }
 .btn-item:hover,
 .btn-item:focus {
@@ -566,7 +567,7 @@ img {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1 875;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
   padding-bottom: 20px;
@@ -621,7 +622,6 @@ img {
 .bottom-adress {
   display: flex;
   align-items: center;
-  
 }
 .footer-logo {
   padding-top: 60px;
@@ -643,7 +643,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
-  
 }
 .footer-left-side {
   display: block;
@@ -659,7 +658,6 @@ img {
 .item-list-right-side {
   display: flex;
   align-items: center;
-  
 }
 .social-image-footer {
   display: flex;
@@ -672,4 +670,3 @@ img {
   align-items: center;
 }
 /* ============================ */
-
